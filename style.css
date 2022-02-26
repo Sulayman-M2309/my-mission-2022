@@ -1,0 +1,145 @@
+.flexible-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-left: 5%;
+}
+body
+{
+    margin: 0;
+}
+.half-width
+{
+    width: 50%;
+    padding-right: 5%;
+}
+.half-width img
+{
+    width: 65%;
+    padding-left: 100px;
+    
+}
+.head-font h1
+{
+    font-family: Famosa;
+    font-size: 50px;
+}
+.color-head
+{
+    color: orange;
+}
+.heading-1
+{
+    display: flex;
+    align-items: center;
+}
+.button-create
+{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, salmon);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    
+}
+.border-left
+{
+    display: inline-block;
+    height: 140px;
+    border-left: 5px solid tomato;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.custom-font h1
+{
+    font-size: 50px;
+}
+.middle-banner h1
+{
+    text-align: center;
+}
+.middle-banner_1 h1
+{
+    text-align: left;
+}
+.middle-banner_1
+{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position-y: 100px;
+    align-items: center;
+}
+.bottom-banner
+{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    height: 800px;
+    background-position-y: 450px;
+    background-position-x: 1350px;
+    
+}
+.custom-font
+{
+    font-family: 'Poppins', sans-serif;
+}
+.one-third
+{
+    width: 23%;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: justify;
+    margin-right: 3%;
+    height: 550px; 
+}
+.bg-color_1
+{
+    background-color: #ffeeee;
+}
+.bg-color_2
+{
+    background-color: antiquewhite;
+}
+.bg-color_3
+{
+    background-color: #fff4d6;
+}
+.one-third img
+{
+    width: 60%;
+}
+
+@font-face {
+    font-family: Famosa;
+    src: url('fonts/Famosa-HeavyDemo.otf');
+}
+.one-four
+{
+    text-align: center;
+    padding-right: 15px;
+}
+.one-four img
+{
+    width: 50%;
+}
+.footer
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    height: 150px;
+}   
+.color-footer
+{
+    color: tomato;
+} 
+.footer h2
+{
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    
+}
